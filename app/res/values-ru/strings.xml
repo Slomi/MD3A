@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Macro Deck 3 Client</string>
+    <string name="subtitle">Клиент для Macro Deck 3 (на основе приложения Macro Deck 2). Использует встроенный в хост веб-клиент.</string>
+    <string name="discovered">Найдено в сети</string>
+    <string name="searching">Поиск в сети…</string>
+    <string name="none_found">Хост пока не найден. Проверь, что Macro Deck 3 запущен и включено обнаружение в сети, или введи адрес вручную.</string>
+    <string name="manual">Ручное подключение</string>
+    <string name="address_hint">IP, IP:порт или connect-ссылка (порт по умолчанию 8193)</string>
+    <string name="code_hint">Код сопряжения (необязательно, 6 цифр)</string>
+    <string name="code_help">Код сопряжения показан рядом с QR-кодом в Macro Deck 3 → Сеть. Без кода вход выполняется по аккаунту Macro Deck 3.</string>
+    <string name="connect">Подключиться</string>
+    <string name="open_anyway">Всё равно открыть</string>
+    <string name="paste_link">Вставить ссылку из буфера</string>
+    <string name="auto_connect">Подключаться автоматически при запуске</string>
+    <string name="last_host">Последний хост: %1$s</string>
+    <string name="reconnect_last">Переподключиться</string>
+    <string name="checking">Проверка %1$s…</string>
+    <string name="not_md3">%1$s отвечает, но это не хост Macro Deck 3. Если это Macro Deck 2, используй старое приложение.</string>
+    <string name="unreachable">Не удаётся связаться с %1$s. Проверь адрес, Wi-Fi и брандмауэр на ПК (порт 8193).</string>
+    <string name="bad_input">Введи адрес.</string>
+    <string name="bad_link">Не удалось прочитать connect-ссылку.</string>
+    <string name="load_failed">Соединение с Macro Deck 3 потеряно. Переподключение…</string>
+    <string name="retry">Повторить</string>
+    <string name="change_host">Сменить хост</string>
+    <string name="leave_title">Отключиться?</string>
+    <string name="leave_msg">Вернуться к выбору хоста.</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="cert_error">Хост использует HTTPS с сертификатом, которому устройство не доверяет. Используй обычный HTTP-порт (8193).</string>
+</resources>

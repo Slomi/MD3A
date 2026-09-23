@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Macro Deck 3 Client</string>
+    <string name="subtitle">Client for Macro Deck 3 (based on the Macro Deck 2 app). Uses the web client built into the host.</string>
+    <string name="discovered">Found on the network</string>
+    <string name="searching">Searching the network…</string>
+    <string name="none_found">No host found yet. Make sure Macro Deck 3 is running and network discovery is on, or enter the address manually.</string>
+    <string name="manual">Manual connection</string>
+    <string name="address_hint">IP, IP:port or connect link (default port 8193)</string>
+    <string name="code_hint">Pairing code (optional, 6 digits)</string>
+    <string name="code_help">The pairing code is shown next to the QR code in Macro Deck 3 → Network. Without a code you sign in with your Macro Deck 3 account.</string>
+    <string name="connect">Connect</string>
+    <string name="open_anyway">Open anyway</string>
+    <string name="paste_link">Paste link from clipboard</string>
+    <string name="auto_connect">Connect automatically on start</string>
+    <string name="last_host">Last host: %1$s</string>
+    <string name="reconnect_last">Reconnect</string>
+    <string name="checking">Checking %1$s…</string>
+    <string name="not_md3">%1$s answers, but it is not a Macro Deck 3 host. If it is Macro Deck 2, use the old app.</string>
+    <string name="unreachable">Cannot reach %1$s. Check the address, the Wi-Fi network and the PC firewall (port 8193).</string>
+    <string name="bad_input">Enter an address.</string>
+    <string name="bad_link">This connect link could not be read.</string>
+    <string name="load_failed">Lost the connection to Macro Deck 3. Retrying…</string>
+    <string name="retry">Retry</string>
+    <string name="change_host">Change host</string>
+    <string name="leave_title">Disconnect?</string>
+    <string name="leave_msg">Return to host selection.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cert_error">The host uses HTTPS with a certificate this device does not trust. Use the plain HTTP port (8193).</string>
+</resources>
